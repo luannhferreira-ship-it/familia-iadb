@@ -1236,3 +1236,180 @@ nav a:hover{
 .como-chegar .btn-localizacao:hover{
     transform: scale(1.05);
 }
+
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+    /* CABEÇALHO */
+    header{
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px 10px;
+    }
+
+    .logos{
+        gap: 10px;
+    }
+
+    .logos img:first-child{
+        width: 100px;
+    }
+
+    .logos img:last-child{
+        width: 120px;
+    }
+
+    nav{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 12px;
+        width: 100%;
+    }
+
+    .principal{
+        display: block;
+    }
+
+    /*BIBLIA, BAMBUI, ÁRVORE */
+    .destaques{
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        margin-left: 0;
+        padding: 30px 0 10px;
+    }
+
+    .destaque{
+        min-height: 170px;
+        padding: 15px 10px;
+    }
+
+    .destaque h3{
+        font-size: 18px;
+    }
+
+    .destaque p{
+        font-size: 13px;
+        line-height: 1.4;
+    }
+
+    .hero{
+        height: 650px;
+        min-height: 650px;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 40px 25px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+    }
+
+    .hero-conteudo{
+        padding: 0;
+        margin-left: 0;
+        gap: 18px;
+        max-width: 100%;
+    }
+
+    .hero-conteudo h1{
+        font-size: 36px;
+    }
+
+    .hero-descricao{
+        font-size: 15px;
+        max-width: 300px;
+    }
+
+    .hero-botoes{
+        flex-wrap: wrap;
+    }
+
+    .hero-frase{
+        position: relative;
+        left: auto;
+        top: auto;
+        transform: none;
+        margin-top: 35px;
+        padding-left: 20px;
+    }
+
+    .hero-frase .frase{
+        font-size: 18px;
+    }
+
+    .parte-inferior{
+        display: block;
+    }
+
+    .convite{
+        width: 100%;
+        box-sizing: border-box;
+        margin-bottom: 15px;
+    }
+
+    .video{
+        height: 250px;
+        margin-top: 0;
+    }
+
+    .bambui{
+        width: 100%;
+        min-height: 250px;
+        background-position: center;
+    }
+
+    .bambui-conteudo{
+        padding: 20px;
+    }
+
+    .redes-sociais{
+        display: flex;
+        justify-content: center;
+        gap: 25px;
+        padding: 15px 0;
+    }
+
+    .redes-sociais a{
+        font-size: 32px;
+    }
+
+    .frase-final{
+        margin: 10px 0 20px;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    /* PAGINA SOBRE */
+    .sobre-intro{
+        min-height: 500px;
+        padding: 50px 25px;
+        box-sizing: border-box;
+    }
+
+    .sobre-texto{
+        max-width: 100%;
+    }
+
+    .sobre-texto h1{
+        font-size: 32px;
+    }
+
+    .sobre-texto p{
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    .palavra-lateral{
+    display: block;
+    width: calc(100% - 15px);
+    margin-left: 15px;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+    .palavra{
+        width: 100%;
+        height: 300px;
+        grid-column: auto;
+        grid-row: auto;
+        margin-top: 0;
+    }
+}
