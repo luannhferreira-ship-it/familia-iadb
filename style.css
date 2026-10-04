@@ -1377,10 +1377,28 @@ nav a:hover{
         font-size: 14px;
     }
 
+        .palavra-lateral{
+    display: block;
+    width: calc(100% - 15px);
+    margin-left: 15px;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+    .palavra{
+        width: 100%;
+        height: 300px;
+        grid-column: auto;
+        grid-row: auto;
+        margin-top: 0;
+    }
+    /* POR HORA FIM DA PAGINA INDEX */
+
     /* PAGINA SOBRE */
     .sobre-intro{
-        min-height: 500px;
+        min-height: 350px;
         padding: 50px 25px;
+        background-position: center;
         box-sizing: border-box;
     }
 
@@ -1397,19 +1415,60 @@ nav a:hover{
         line-height: 1.5;
     }
 
-    .palavra-lateral{
-    display: block;
-    width: calc(100% - 15px);
-    margin-left: 15px;
-    box-sizing: border-box;
-    padding: 0;
-}
+    .nossa-historia{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 40px 25px;
+        min-height: auto;
+    }
 
-    .palavra{
+    .historia-texto{
+        display: flex;
+        flex-direction: column;
         width: 100%;
-        height: 300px;
-        grid-column: auto;
-        grid-row: auto;
-        margin-top: 0;
+        max-width: none;
+    }
+
+    .historia-texto{
+        display: contents;
+    }
+
+    .historia-imagem{
+        width: 100%;
+        order: 5;
+    }
+
+    .historia-imagem img{
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+    }
+
+    .valores_lista{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .convite-familia{
+        margin-top: 30px;
+        order: 6;
+    }
+
+    .historia-texto h2{
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .historia-info{
+        margin-top: 25px;
+    }
+
+    .historia-valores{
+        margin-top: 30px;
+    }
+
+    .valor{
+        padding: 15px;
     }
 }
