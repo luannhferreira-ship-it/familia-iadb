@@ -1064,6 +1064,341 @@ nav a:hover{
     color: #fff;
 }
 
+.convite-cultos{
+    margin: 60px;
+    padding: 60px 30px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.convite-cultos p{
+    font-size: 13px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+.convite-cultos h2{
+    font-size: 36px;
+    margin: 15px 0;
+}
+
+.convite-cultos span{
+    display: block;
+    color: #ccc;
+    margin-bottom: 30px;
+}
+
+.convite-cultos a{
+    display: inline-block;
+    background-color: #fff;
+    color: #000;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.convite-cultos a:hover{
+    transform: scale(1.05);
+}
+
+/*ESTILIZANDO A PAGINA EVENTOS*/
+.eventos-intro{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.45),
+        rgba(0,0,0,0.45)
+    ),
+    url("Imagens/eventos/evento.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 450px;
+    display: flex;
+    align-items: center;
+    padding: 80px;
+}
+
+.eventos-texto{
+    color: #fff;
+    max-width: 600px;
+}
+
+.eventos-texto p{
+    font-size: 13px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+.eventos-texto h1{
+    font-size: 48px;
+    margin: 15px 0;
+}
+
+.eventos-texto span{
+    display: block;
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 500px;
+}
+
+.evento-data{
+    min-width: 70px;
+    text-align: center;
+}
+
+.evento-data span{
+    font-size: 12px;
+    font-weight: bold;
+    color: #666;
+}
+
+.evento-info h3{
+    margin: 0 0 8px;
+    font-size: 20px;
+}
+
+.evento-info p{
+    margin: 0;
+    color: #666;
+}
+
+.evento-info i{
+    margin-right: 6px;
+}
+
+.proximos-eventos{
+    padding: 70px 60px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+.eventos-lista{
+    max-width: 800px;
+    margin: 40px auto 0;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #eeeeee;
+}
+
+.evento{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 25px 30px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.convite-eventos{
+    margin: 60px;
+    padding: 60px 30px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.convite-eventos p{
+    font-size: 13px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+.convite-eventos h2{
+    font-size: 36px;
+    margin: 15px 0;
+}
+
+.convite-eventos span{
+    display: block;
+    color: #ccc;
+    margin-bottom: 30px;
+}
+
+.convite-eventos a{
+    display: inline-block;
+    background-color: #fff;
+    color: #000;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.convite-eventos a:hover{
+    transform: scale(1.05);
+}
+/*FIM ESTILIZAÇÂO EVENTOS*/
+
+/*ESTILIZAÇÂO MENSAGENS */
+.mensagens-destaque{
+        padding: 70px 60px;
+        text-align: center;
+    }
+
+    .mensagens-titulo p{
+        font-size: 13px;
+        letter-spacing: 4px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .mensagens-titulo h2{
+        font-size: 36px;
+        margin: 0 0 10px;
+    }
+
+    .mensagens-titulo span{
+        color: #666;
+    }
+
+      .mensagens-lista{
+        max-width: 1000px;
+        margin: 40px auto 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+    }
+
+    .mensagem-card{
+        background-color: #f5f5f5;
+        border-radius: 10px;
+        overflow: hidden;
+        transition: 0.3s;
+    }
+
+    .mensagem-card:hover{
+        transform: translateY(-5px);
+    }
+
+    .mensagem-imagem{
+        width: 100%;
+        height: 350px;
+        overflow: hidden;
+    }
+
+    .mensagem-imagem img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .mensagem-conteudo > span{
+        font-size: 12px;
+        letter-spacing: 2px;
+        font-weight: bold;
+        color: #666;
+    }
+
+    .mensagem-conteudo h3{
+        font-size: 22px;
+        margin: 10px 0;
+    }
+
+    .mensagem-conteudo p{
+        color: #666;
+        line-height: 1.5;   
+    }
+
+    .mensagem-conteudo a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        margin-top: 15px;
+        padding: 12px 15px;
+        background-color: #000;
+        color: #fff;
+        text-decoration: none;
+        font-weight: bold;
+        border-radius: 6px;
+        transition: 0.3s;
+    }
+
+    .mensagem-conteudo a:hover{
+        transform: scale(1.03);
+    }
+
+    .mensagens-intro{
+        background-image: linear-gradient(
+            rgba(0,0,0,0.45),
+            rgba(0,0,0,0.45)
+            ),
+            url("Imagens/mensagens/pregacao.png");
+    
+        background-size: cover;
+        background-position: center;
+        min-height: 450px;
+        display: flex;
+        align-items: center;
+        padding: 80px;
+    }
+
+    .mensagens-texto{
+        color: #fff;
+        max-width: 600px;
+    }
+
+    .mensagens-texto p{
+        font-size: 13px;
+        letter-spacing: 4px;
+        font-weight: bold;
+    }
+
+    .mensagens-texto h1{
+        font-size: 48px;
+        margin: 15px 0;
+    }
+
+    .mensagens-texto span{
+        display: block;
+        font-size: 18px;
+        line-height: 1.5;
+        max-width: 500px;
+    }
+
+    .convite-mensagens{
+        margin: 60px;
+        padding: 60px 30px;
+        text-align: center;
+        background-color: #000;
+        color: #fff;
+        border-radius: 10px;
+    }
+
+    .convite-mensagens p{
+        font-size: 13px;
+        letter-spacing: 4px;
+        font-weight: bold;
+    }
+
+    .convite-mensagens h2{
+        font-size: 36px;
+        margin: 15px 0;
+    }
+
+    .convite-mensagens span{
+        display: block;
+        color: #ccc;
+        margin-bottom: 30px;
+    }
+
+    .convite-mensagens a{
+        display: inline-block;
+        background-color: #fff;
+        color: #000;
+        padding: 12px 20px;
+        text-decoration: none;
+        border-radius: 8px;
+        transition: 0.3s;
+    }
+
+    .convite-mensagens a:hover{
+        transform: scale(1.05);
+    }
+
 /*ESTILIZANDO A PAGINA CONTATO */
 
 .contato-local{
@@ -1235,6 +1570,92 @@ nav a:hover{
 
 .como-chegar .btn-localizacao:hover{
     transform: scale(1.05);
+}
+
+.semeie-intro{
+    background-color: #111;
+    min-height: 450px;
+    display: flex;
+    align-items: center;
+    padding: 80px;
+}
+
+.semeie-texto{
+    color: #fff;
+    max-width: 650px;
+}
+
+.semeie-texto p{
+    font-size: 13px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+.semeie-texto h1{
+    font-size: 48px;
+    margin: 15px 0;
+}
+
+.semeie-texto span{
+    display: block;
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 550px;
+    color: #ccc;
+}
+
+.semeie-proposito{
+    padding: 70px 60px;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 60px;
+    align-items: center;
+}
+
+.semeie-proposito-texto{
+    max-width: 500px;
+}
+
+.semeie-proposito-texto > p{
+    font-size: 13px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.semeie-proposito-texto h2{
+    font-size: 36px;
+    margin: 0 0 15px;
+}
+
+.semeie-proposito-lista{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+
+.semeie-proposito-lista > div{
+    padding: 25px 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.semeie-proposito-lista i{
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.semeie-proposito-lista h3{
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+
+.semeie-proposito-lista p{
+    color: #666;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
 }
 
 /* RESPONSIVIDADE */
@@ -1470,5 +1891,186 @@ nav a:hover{
 
     .valor{
         padding: 15px;
+    }
+
+    /* Estilização da Pagina CULTOS */
+    .horarios-cultos{
+        padding: 50px 25px;
+    }
+
+    .horarios-titulo h2{
+        font-size: 30px;
+    }
+
+    .cultos-lista{
+        grid-template-columns: 1fr;
+        gap: 15px;
+        margin-top: 30px;
+    }
+
+    .culto{
+        padding: 25px 20px;
+    }
+
+    .culto i{
+        font-size: 28px;
+    }
+
+    .culto h3{
+        font-size: 20px;
+    }
+
+    .culto p{
+        font-size: 24px;
+    }
+
+    .convite-cultos{
+        margin: 40px 25px;
+        padding: 45px 20px;
+    }
+
+    .convite-cultos h2{
+        font-size: 28px;
+    }
+
+    .convite-cultos span{
+        line-height: 1.5;
+        font-size: 14px;
+    }
+    /* FIM ESTILIZAÇÃO CULTOS */
+
+    /* INICIO ESTILIZAÇÃO CONTATO */
+    .contato-local{
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding: 50px 25px;
+    }
+
+    .contato-texto h1{
+        font-size: 32px;
+    }
+
+    .mapa{
+        height: 300px;
+    }
+
+    .contato-cards{
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .contato-cards > div{
+        padding: 25px 20px;
+    }
+
+    .contato-info h2{
+        font-size: 30px;
+    }
+
+    .redes-contato{
+        padding: 50px 25px;
+        text-align: center;
+    }
+
+    .redes-contato a{
+        font-size: 30px;
+        margin: 0 10px;
+    }
+
+    .como-chegar{
+        padding: 50px 25px;
+    }
+    /*FIM ESTILIZAÇÂO CONTATOS*/
+
+    /*INICIO ESTILIZAÇÂO EVENTOS*/
+    .evento{
+    width: 100%;
+    margin-top: 30px;
+    }
+
+    .evento-data{
+        font-size: 26px;
+    }
+
+    .evento-data strong{
+        font-size: 26px;
+    }
+
+    .evento-info h3{
+        font-size: 18px;
+    }
+
+    .proximos-eventos{
+    padding: 50px 25px;
+}
+
+    .convite-eventos{
+        margin: 40px 25px;
+        padding: 45px 20px;
+    }
+
+    .convite-eventos h2{
+        font-size: 28px;
+    }
+
+    .convite-eventos span{
+        line-height: 1.5;
+        font-size: 14px;
+    }
+    /*FIM ESTILIZAÇÂO EVENTOS.*/
+
+    /*INICIO ESTILIZAÇÂO MENSAGENS*/
+    .mensagens-destaque{
+        padding: 50px 25px;
+    }
+
+    .mensagens-titulo h2{
+        font-size: 30px;
+    }
+
+    .mensagens-titulo span{
+        font-size: 14px;
+    }
+
+    .mensagens-lista{
+        grid-template-columns: 1fr;
+        gap: 20px;
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .mensagem-card{
+        width: 100%;
+    }
+
+    .mensagem-imagem{
+        height: 250px;
+    }
+
+    .mensagem-conteudo{
+        padding: 20px;
+    }
+
+    .mensagem-conteudo h3{
+        font-size: 20px;
+    }
+
+    .mensagem-conteudo p{
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .convite-mensagens{
+        margin: 40px 25px;
+        padding: 45px 20px;
+    }
+
+    .convite-mensagens h2{
+        font-size: 28px;
+    }
+
+    .convite-mensagens span{
+        font-size: 14px;
+        line-height: 1.5;
     }
 }
