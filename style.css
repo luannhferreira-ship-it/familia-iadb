@@ -1641,6 +1641,16 @@ nav a:hover{
     text-align: center;
 }
 
+.semeie-proposito-lista >div:hover{
+    background-color: #000;
+    color: #fff;
+    transform: translateY(-5px);
+}
+
+.semeie-proposito-lista >div:hover p{
+    color: #ccc;
+}
+
 .semeie-proposito-lista i{
     font-size: 30px;
     margin-bottom: 15px;
@@ -1656,6 +1666,231 @@ nav a:hover{
     font-size: 14px;
     line-height: 1.5;
     margin: 0;
+}
+
+.versiculo-semeie{
+    margin: 60px;
+    padding: 70px 40px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.versiculo-texto{
+    max-width: 800px;
+    margin: 0 auto 25px;
+    font-size: 26px;
+    line-height: 1.7;
+    font-style: italic;
+}
+
+.versiculo-referencia{
+    display: block;
+    color: #aaa;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.formas-contribuicao{
+    padding: 70px 60px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.forma-contribuicao{
+    transition: 0.3s;
+}
+
+.forma-contribuicao a{
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    padding: 12px 18px;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+.forma-contribuicao:hover{
+    background-color: #000;
+    color: #fff;
+    transform: translateY(-5px);
+}
+
+.forma-contribuicao:hover p{
+    color: #ccc;
+}
+
+.forma-contribuicao:hover a{
+    background-color: #fff;
+    color: #000;
+}
+
+.formas-lista{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    max-width: 1100px;
+    margin: 40px auto 0;
+}
+
+.forma-contribuicao{
+    padding: 35px 25px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+/*ESTILIZAÇÂO DA PARTE AREA DO MEMBRO*/
+.membro-intro{
+    background-color: #111;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    padding: 70px 80px;
+    box-sizing: border-box;
+}
+
+.membro-texto{
+    color: #fff;
+    max-width: 650px;
+}
+
+.mebro-texto p{
+    font-size: 13px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+.membro-texto h1{
+    font-size: 48px;
+    margin: 15px 0;
+}
+
+.membro-texto span{
+    display: block;
+    font-size: 18px;
+    line-height: 1.5;
+    max-width: 550px;
+    color: #ccc;
+}
+
+.login-membro{
+    padding: 80px 25px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+.login-titulo{
+    margin-bottom: 35px;
+}
+
+.login-titulo > p{
+    font-size: 13px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.login-titulo h2{
+    font-size: 32px;
+    margin: 0 0 12px;
+}
+
+.login-titulo span{
+    color: #666;
+    line-height: 1.5;
+}
+
+.login-membro .form-login {
+    display: block;
+    width: 100%;
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 35px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.campo-login{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 22px;
+}
+
+.campo-login label{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.campo-login input{
+    display: block;
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.campo-login input:focus{
+    outline: 2px solid #777;
+    border-color: #777;
+}
+
+.esqueci-senha{
+    display: block;
+    margin-bottom: 25px;
+    color: #333;
+    text-align: right;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.esqueci-senha:hover{
+    text-decoration: underline;
+}
+
+.form-login button{
+    width: 100%;
+    padding: 14px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.form-login button:hover{
+    background-color: #333;
+    transform: translateY(-2px);
+}
+
+.login-cadastro{
+    margin: 25px 0 0;
+    text-align: center;
+    font-size: 13px;
+    color: #666;
+}
+
+.login-cadastro a{
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.login-cadastro a:hover{
+    text-decoration: underline;
 }
 
 /* RESPONSIVIDADE */
@@ -2072,5 +2307,130 @@ nav a:hover{
     .convite-mensagens span{
         font-size: 14px;
         line-height: 1.5;
+    }
+
+    .semeie-intro{
+        min-height: 350px;
+        padding: 50px 25px;
+        box-sizing: border-box;
+    }
+
+    .semeie-texto h1{
+        font-size: 36px;
+    }
+
+    .semeie-texto span{
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    .semeie-proposito{
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding: 50px 25px;
+    }
+
+    .semeie-proposito-texto h2{
+        font-size: 30px;
+    }
+
+    .semeie-proposito-texto span{
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    .semeie-proposito-lista {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .semeie-proposito-lista > div{
+        transition: 0.3s;
+        padding: 25px 20px;
+    }
+
+    .formas-contribuicao{
+        padding: 50px 25px;
+    }
+
+    .formas-titulo h2{
+        font-size: 30px;
+    }
+
+    .formas-titulo span{
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    .formas-lista{
+        grid-template-columns: 1fr;
+        gap: 15px;
+        margin-top: 30px;
+    }
+
+    .forma-contribuicao{
+        padding: 30px 20px;
+    }
+
+    .versiculo-semeie{
+        margin: 40px 25px;
+        padding: 45px 20px;
+    }
+
+    .versiculo-texto{
+        font-size: 20px;
+        line-height: 1.6;
+    }
+
+    .versiculo-referencia{
+        font-size: 12px;
+        line-height: 1.5;
+    }
+
+    /*ESTILIZAÇÃO RESPONSIVA PARTE AREA DO MEMBRO */
+    .membro-intro{
+        min-height: 350px;
+        padding: 50px 25px;
+        box-sizing: border-box;
+    }
+
+    .membro-texto h1{
+        font-size: 36px;
+    }
+
+    .membro-texto span{
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    .login-membro{
+        padding: 50px 20px;
+    }
+
+    .login-titulo h2{
+        font-size: 27px;
+    }
+
+    .login-titulo span{
+        font-size: 14px;
+    }
+
+    .login-membro .form-login{
+        width: 100%;
+        max-width: 450px;
+        padding: 25px 20px;
+    }
+
+    .campo-login input{
+        font-size: 16px;
+    }
+
+    .form-login button{
+        font-size: 14px;
+        padding: 14px 10px;
+    }
+
+    .login-cadastro{
+        line-height: 1.6;
     }
 }
